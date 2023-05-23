@@ -2,6 +2,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import image1 from '../assets/image/icons8-facebook (1).svg';
+import image2 from '../assets/image/icons8-twitter.svg';
+import image3 from '../assets/image/icons8-instagram.svg';
+
 
 function BasicExample() {
   return (
@@ -25,6 +29,13 @@ function BasicExample() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <span>
+            <div className='img'>
+            <a href="#"> <img src={image1} alt="" /> </a>
+            <a href="#"> <img src={image2} alt="" /> </a>
+            <a href="#"> <img src={image3} alt="" /> </a>
+            </div>
+            </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>

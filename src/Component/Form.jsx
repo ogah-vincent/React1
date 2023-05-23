@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
 
+
 function FormExample() {
   const [validated, setValidated] = useState(false);
 
@@ -51,6 +52,7 @@ function FormExample() {
               aria-describedby="inputGroupPrepend"
               required
             />
+            
             <Form.Control.Feedback type="invalid">
               Please choose a username.
             </Form.Control.Feedback>
@@ -72,6 +74,8 @@ function FormExample() {
             Please provide a valid state.
           </Form.Control.Feedback>
         </Form.Group>
+       
+
         <Form.Group as={Col} md="3" controlId="validationCustom05">
           <Form.Label>Zip</Form.Label>
           <Form.Control type="text" placeholder="Zip" required />
@@ -87,6 +91,7 @@ function FormExample() {
           feedback="You must agree before submitting."
           feedbackType="invalid"
         />
+ 
       </Form.Group>
       <Button type="submit">Submit form</Button>
     </Form>

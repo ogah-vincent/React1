@@ -4,7 +4,6 @@ import Home from './Component/About';
 import ControlledCarousel from './Component/caurosel';
 import BasicExample from './Component/Navbar';
 import FormExample from './Component/Form';
-<script src="https://kit.fontawesome.com/287711371b.js" crossorigin="anonymous"></script>
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       <BasicExample></BasicExample>
     <FormExample></FormExample>
     <ControlledCarousel></ControlledCarousel>
-    <a href=''><footers style={{color: "brown", fontSize: "20px"}} > For more info contact us on our social media handles!  </footers></a> 
+    <a href=''><footers style={{color: "blue", fontSize: "20px"}} > For more info contact us on our social media handles!  </footers></a> 
     </div>
   );
 }

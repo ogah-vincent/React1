@@ -8,7 +8,7 @@ const Home = () => {
          <div>
 <p>{firstName + " " + lastName}</p>;
        </div>
-     )
+     ) 
  };
 
 
